@@ -1,0 +1,21 @@
+<div>
+  <h1>Dashboard</h1>
+  <button routerLink="/coordinator/proposals">Opdrachten interactie nodig</button>
+  <button routerLink="/coordinator/all_proposals">Alle opdrachten</button>
+  <button routerLink="/coordinator/users">Gebruikers overzicht</button>
+</div>
+<div id="csv">
+    <h2>CSV-file uploaden</h2>
+    <input type="file" id="upload">
+    <button (click)="onSubmit()" id="submitBtn">Upload</button>
+</div>
+<a href="#/coordinator/proposals">
+  <h2>Overzicht opdrachten</h2>
+  <div>
+    <canvas id="myChart" height="80%" width="80%" ></canvas>
+  </div>
+</a>
+<div id="accounts">
+  <h2>Accounts controleren</h2>
+  <table id="accountList"></table>
+</div>

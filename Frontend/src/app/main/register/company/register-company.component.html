@@ -1,0 +1,93 @@
+<h1 class="title">Registreer bedrijfsaccount</h1><br/>
+<section>
+  <form>
+
+    <h1 class="title white">Algemene informatie</h1><br/>
+
+    <label>Naam bedrijf</label><br/>
+    <input id="companyName" type="text"><br/><br/>
+
+    <label>Wachtwoord</label><br/>
+    <input id="password" type="password"><br/><br/>
+
+    <label>Wachtwoord opnieuw</label><br/>
+    <input id="passwordAgain" type="password"><br/><br/>
+
+    <label>Aantal Medewerkers</label><br/>
+    <input id="employeeCount" type="number"><br/><br/>
+
+    <label>Aantal IT-medewerkers</label><br/>
+    <input id="itEmployeeCount" type="number"><br/><br/>
+
+    <label>Aantal IT-medewerkers (Die de studenten technisch kunnen begeleiden)</label><br/>
+    <input id="supportingItEmployees" type="number"><br/><br/>
+
+    <div id="mapCompany"></div><br/>
+
+    <label>Geselecteerde Latitude</label><br/>
+    <input type="text" id="lat1"><br/><br/>
+
+    <label>Geselecteerde Longitude</label><br/>
+    <input type="text" id="lng1"><br/><br/>
+
+    <label>Enkel invullen indien stage niet op de locatie van het bedrijf is</label>
+    <div id="mapStage"></div><br/>
+
+    <label>Geselecteerde Latitude</label><br/>
+    <input type="text" id="lat2"><br/><br/>
+
+    <label>Geselecteerde Longitude</label><br/>
+    <input type="text" id="lng2"><br/><br/>
+
+  </form>
+</section>
+<br/>
+<section>
+  <form>
+
+    <h1 class="title white">Contactpersoon</h1><br/>
+
+    <label>Titel</label><br/>
+    <input [(ngModel)]="contactPersonTitle" name="contactPersonTitle" type="text" ><br/><br/>
+
+    <label>Naam</label><br/>
+    <input [(ngModel)]="contactPersonName" name="contactPersonName" type="text"><br/><br/>
+
+    <label>Voornaam</label><br/>
+    <input [(ngModel)]="contactPersonSurname" name="contactPersonSurname" type="text"><br/><br/>
+
+    <label>Telefoonnummer (+32 4 ... / +32 11 ...)</label><br/>
+    <input [(ngModel)]="contactNumber" name="contactNumber" type="text"><br/><br/>
+
+    <label>E-mail</label><br/>
+    <input [(ngModel)]="contactEmail" name="contactEmail" type="email"><br/><br/>
+
+  </form>
+</section>
+<br/>
+
+<section>
+  <form>
+
+    <h1 class="title white">Bedrijfspromotor</h1><br/>
+
+    <label>Titel</label><br/>
+    <input [(ngModel)]="companyPersonTitle" name="companyPersonTitle" type="text" ><br/><br/>
+
+    <label>Naam</label><br/>
+    <input [(ngModel)]="companyPersonName" name="companyPersonName" type="text"><br/><br/>
+
+    <label>Voornaam</label><br/>
+    <input [(ngModel)]="companyPersonSurname" name="companyPersonSurname" type="text"><br/><br/>
+
+    <label>Telefoonnummer (+32 4 ... / +32 11 ...)</label><br/>
+    <input [(ngModel)]="companyNumber" name="companyNumber" type="text"><br/><br/>
+
+    <label>E-mail</label><br/>
+    <input [(ngModel)]="companyEmail" name="companyEmail" type="email"><br/><br/>
+
+  </form>
+</section>
+
+<div id="output"></div>
+<button (click)="registerCompany()" >Accountaanvraag indienen</button>

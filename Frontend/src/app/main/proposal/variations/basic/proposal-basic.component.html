@@ -1,0 +1,31 @@
+<h1 class="title">{{title}}</h1>
+<section>
+  <form id="proposalForm">
+    <label for="study">Bestemd voor:</label><br><br>
+    <input [(ngModel)]="fieldsOfStudy" type="text" id="study" name="study" readonly="true"><br><br>
+    <label for="description">Omschrijving:</label><br><br>
+    <textarea form="proposalForm" id="description" readonly="true"></textarea><br><br>
+    <label>IT-omgeving:</label><br><br>
+    <input [(ngModel)]="toolsUsed" type="text" id="enviroment" name="toolsUsed" value="" readonly="true"><br><br>
+    <label for="toolsInformation">Technische beschrijving:</label><br><br>
+    <textarea [(ngModel)]="toolsInformation" form="proposalForm" id="toolsInformation" name="toolsInformation"
+              readonly="true"></textarea><br><br>
+    <label for="extraRequirements">Extra vereisten:</label><br><br>
+    <textarea [(ngModel)]="necessities" form="proposalForm" id="extraRequirements" name="necessities"
+              readonly="true"></textarea><br><br>
+    <label for="theme">Onderzoeksthema:</label><br><br>
+    <input [(ngModel)]="theme" type="text" id="theme" name="theme" readonly="true"><br><br>
+    <label>Inleidende activiteiten / verwachtingen:</label><br><br>
+    <textarea [(ngModel)]="activities" form="proposalForm" id="expectations" name="activities"
+              readonly="true"></textarea><br><br>
+    <label for="amountOfStudents">Aantal studenten:</label><br><br>
+    <input [(ngModel)]="requiredStudentAmount" id="amountOfStudents" type="text" name="requiredStudentAmount"
+           readonly="true"><br><br>
+    <label for="remarks">Andere bemerkingen:</label><br><br>
+    <textarea [(ngModel)]="optionalComment" form="proposalForm" id="remarks" name="optionalComment"
+              readonly="true"></textarea><br><br>
+    <label>Stageperiode:</label><br><br>
+    <input [(ngModel)]="periods" type="text" id="semester" name="periods" readonly="true"><br><br>
+    <div id="output"></div>
+  </form>
+</section>

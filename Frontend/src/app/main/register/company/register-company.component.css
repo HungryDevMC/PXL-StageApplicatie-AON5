@@ -1,0 +1,33 @@
+main {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.title {
+  display: inline-block;
+  margin-left: 0;
+  width: 80%;
+  padding: 0;
+  color: black;
+}
+
+#mapCompany {
+  height: 20vh;
+}
+
+#mapStage {
+  height: 20vh;
+}
+
+form {
+  background-color: rgba(51, 72, 84, .9);
+  backdrop-filter: blur(5px);
+}
+
+.white {
+  color: white;
+}

@@ -1,0 +1,74 @@
+{
+  "proposals": [
+    {
+      "study": [
+        "AON"
+      ],
+      "description": "Frontend + mobile development",
+      "environment": [
+        "Web",
+        "Mobile"
+      ],
+      "technicalDescription": "Geen",
+      "extraRequirements": "Vlot Engels spreken.",
+      "theme": "Development",
+      "activities": [
+        "Sollicitatiegesprek",
+        "CV"
+      ],
+      "amountOfStudents": 2,
+      "names": [
+        "Robin",
+        "Sam"
+      ],
+      "remarks": "Geen",
+      "period": [
+        "Semester 2 (februari - juni)"
+      ],
+      "status": 5,
+      "id": 1
+    },
+    {
+      "study": [],
+      "description": "",
+      "environment": [],
+      "technicalDescription": "",
+      "extraRequirements": "",
+      "theme": "",
+      "activities": [],
+      "amountOfStudents": 2,
+      "names": [
+        ""
+      ],
+      "remarks": "",
+      "period": [],
+      "status": 0,
+      "id": 2
+    },
+    {
+      "study": [
+        "AON"
+      ],
+      "description": "TestApplicatie",
+      "environment": [
+        "Java"
+      ],
+      "technicalDescription": "efgzefe",
+      "extraRequirements": "afaef",
+      "theme": "afezf",
+      "activities": [
+        "Sollicitatiegesprek"
+      ],
+      "amountOfStudents": 1,
+      "names": [
+        "eafezaef"
+      ],
+      "remarks": "afezfzeaf",
+      "period": [
+        "Semester 1 (oktober - januari)"
+      ],
+      "status": 0,
+      "id": 3
+    }
+  ]
+}

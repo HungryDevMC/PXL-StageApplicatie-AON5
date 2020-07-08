@@ -1,0 +1,17 @@
+<main-header></main-header>
+<body>
+<main>
+  <h1 class="title">Login</h1><br/>
+  <div>
+    <label>E-mail</label><br/>
+    <input id="email" type="email"><br/><br/>
+    <label>Password</label><br/>
+    <input id="password" type="password"><br/><br/>
+    <div>
+      <button (click)="verifyLogin()" id="login-button">Login</button>
+      <a routerLink="/register"><button>Registreer</button></a>
+    </div>
+    <div id="output"></div>
+  </div>
+</main>
+</body>

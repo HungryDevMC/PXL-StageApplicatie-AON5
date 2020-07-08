@@ -1,0 +1,22 @@
+<proposal-basic-app></proposal-basic-app>
+<h1 class="title">Eindoordeel opdracht</h1>
+<section>
+  <form id="approvedFeedback">
+      <h1 class="title">Goedgekeurd</h1>
+
+  </form>
+
+  <form id="deniedFeedback">
+    <h1 class="title">Afgekeurd</h1>
+
+  </form>
+</section>
+
+<section>
+  <form>
+    <h1 class="title">Feedback</h1>
+    <textarea id="feedback" cols="60" rows="5"></textarea><br/>
+    <input class="button" type="button" value="Goedkeuren" (click)="postFeedback(true)">
+    <input class="button" type="button" value="Afkeuren" (click)="postFeedback(false)">
+  </form>
+</section>

@@ -1,0 +1,52 @@
+:host {
+    min-height: 100%;
+    display: flex;
+  }
+  
+  html {
+    margin: 0;
+    height: 100%;
+  }
+  
+  main
+  {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    overflow: hidden;
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+  body
+  {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #57a518;
+    width: 20vh;
+    height: 8vh;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.4s;
+    border: 2px solid #57a518;
+  }
+  
+  button:hover {
+    color: black;
+    background: white;
+  }
+  
+  #center-div {
+    margin-top: 15vh;
+    text-align: center;
+  }
+  
+  h1 {
+    color: black;
+  }
+  

@@ -1,0 +1,94 @@
+:host ::ng-deep main
+{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.40) ;
+  /*background: linear-gradient(135deg, #334854,  #334854, #6790A8);*/
+  /*background-color: rgba(51, 72, 84, .1);*/
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+:host ::ng-deep body
+{
+  margin: 0;
+  width: 100%;
+}
+
+:host ::ng-deep .title
+{
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #0a212b;
+  width: 35%;
+  color: white;
+  margin-left: 2%;
+}
+
+:host ::ng-deep button {
+  background: linear-gradient(135deg, #2DEB85,  #1F9C00);
+  border: none;
+  color: white;
+  padding: 0.5% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/**
+Voor inputs op forms ook een button te laten lijken
+ */
+:host ::ng-deep .button {
+  background: linear-gradient(135deg, #2DEB85,  #1F9C00);
+  border: none;
+  color: white;
+  padding: 0.5% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+:host ::ng-deep a {
+  color: white;
+  text-decoration: none;
+}
+
+:host ::ng-deep label {
+  color: white;
+}
+
+:host ::ng-deep form #output {
+  color: #a52e1f;
+}
+
+:host ::ng-deep section
+{
+  border-style: solid;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgba(0, 0, 0, 0.40);
+}
+
+:host ::ng-deep form  {
+  padding: 3%;
+  background-color: #5e7380;
+}
+
+:host ::ng-deep ul {
+  list-style-type: none;
+}
+
+

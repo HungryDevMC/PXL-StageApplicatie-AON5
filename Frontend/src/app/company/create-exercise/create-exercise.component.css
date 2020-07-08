@@ -1,0 +1,37 @@
+::ng-deep textarea {
+  resize: none;
+  width: 70%;
+  height: 80px;
+  border: solid white;
+  border-radius: 10px;
+}
+
+::ng-deep input {
+  border: solid white;
+  border-radius: 10px;
+}
+
+::ng-deep #otherText {
+  width: 50%;
+  margin-left: 1%;
+  height: 15px;
+}
+
+::ng-deep #theme {
+  width: 30%;
+  height: 15px;
+}
+
+::ng-deep #names {
+  width: 30%;
+  height: 15px;
+}
+
+.title {
+  color: black;
+}
+
+form {
+  background-color: rgba(51, 72, 84, .9);
+  backdrop-filter: blur(5px);
+}

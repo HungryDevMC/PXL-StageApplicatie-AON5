@@ -1,0 +1,68 @@
+<h1 class="title">Opdracht aanmaken</h1>
+<section>
+  <form id="proposalForm">
+    <label>Kies een gepaste titel voor de opdracht.</label><br><br>
+    <textarea form="proposalForm" id="title"></textarea><br><br>
+    <label>Selecteer hier de afstudeerrichting waarvoor de stageopdracht bestemd is.</label><br><br>
+    <input type="checkbox" id="AON" name="Applicatie-ontwikkeling" value="AON">
+    <label for="AON"> Applicatie-ontwikkeling</label><br>
+    <input type="checkbox" id="SNB" name="Systemen en Netwerkbeheer" value="SNB">
+    <label for="SNB"> Systemen en Netwerkbeheer</label><br>
+    <input type="checkbox" id="SWM" name="Software Management" value="SWM">
+    <label for="SWM"> Software Management</label><br>
+    <input type="checkbox" id="AI" name="AI" value="AI">
+    <label for="AI"> AI</label><br><br>
+    <label for="description">Beschrijf hier duidelijk en zo gedetailleerd mogelijk wat de stageopdracht inhoudelijk zal omvatten.</label><br><br>
+    <textarea form="proposalForm" id="description"></textarea><br><br>
+    <label>In welke IT-omgeving dient de stageopdracht uitgewerkt te worden: bijvoorbeeld.</label><br><br>
+    <input type="checkbox" id="java" name="Programmeren: Java" value="java">
+    <label for="java"> Programmeren: Java</label><br>
+    <input type="checkbox" id="net" name="Programmeren: .Net" value="net">
+    <label for="net"> Programmeren: .Net</label><br>
+    <input type="checkbox" id="web" name="Web: CSS, Javascript, PHP, Angular, ..." value="web">
+    <label for="web"> Web: CSS, Javascript, PHP, Angular, ...</label><br>
+    <input type="checkbox" id="mobile" name="Mobile: Android, iOS, Windows, ..." value="mobile">
+    <label for="mobile"> Mobile: Android, iOS, Windows, ...</label><br>
+    <input type="checkbox" id="systems" name="Systemen&Netwerken:  Linux, Windows, ..." value="systems">
+    <label for="systems"> Systemen&Netwerken:  Linux, Windows, ...</label><br>
+    <input type="checkbox" id="software" name="Software testing, ITIL, Projectmanagement, CRM, Information Management" value="software">
+    <label for="software"> Software testing, ITIL, Projectmanagement, CRM, Information Management</label><br>
+    <input type="checkbox" id="other" name="Andere" value="other">
+    <label for="other">
+      <label for="otherText">Andere:</label>
+      <input type="text" id="otherText">
+    </label><br><br>
+    <label for="technicalDescription">Verdere beschrijving van de technische omgeving.</label><br><br>
+    <textarea form="proposalForm" id="technicalDescription"></textarea><br><br>
+    <label for="extraRequirements">Zijn er specifieke eisen waaraan moet worden voldaan voor het uitvoeren van de stageopdracht vb bereidheid tot communicatie in het Engels, beschikken over een auto, bereikbaar met openbaar vervoer,...</label><br><br>
+    <textarea form="proposalForm" id="extraRequirements"></textarea><br><br>
+    <label for="theme">Onderzoek dat leidt tot het vergaren van diepgaande kennis voor het oplossen van een praktijkprobleem. Het thema kan zich situeren in het kader of in het verlengde van de stageopdracht ofwel een specifieke onderzoeksopdracht aangebracht door het bedrijf (zie begeleidende brief voor enkele voorbeelden).</label><br><br>
+    <input type="text" id="theme"><br><br>
+    <label>Inleidende activiteiten / verwachtingen</label><br><br>
+    <input type="checkbox" id="interview" name="Sollicitatiegesprek" value="interview">
+    <label for="interview"> Sollicitatiegesprek</label><br>
+    <input type="checkbox" id="CV" name="CV" value="CV">
+    <label for="CV"> CV</label><br>
+    <input type="checkbox" id="commute" name="Vergoeding / tegemoetkoming in verplaatsingskosten" value="commute">
+    <label for="commute"> Vergoeding / tegemoetkoming in verplaatsingskosten</label><br><br>
+    <label>Aantal gewenste stagiairs (max. 2 per stageproject) </label><br><br>
+    <input type="radio" id="1student" name="students" value="1student">
+    <label for="1student"> 1 Student</label><br>
+    <input type="radio" id="2students" name="students" value="2students">
+    <label for="2students"> 2 Studenten</label><br><br>
+    <label for="names">
+      Bedrijf is gecontacteerd door student(en) en wenst deze opdracht enkel aan deze student(en) aan te bieden.
+      Indien u meerdere namen wenst in te geven, gelieve de namen te scheiden door een komma
+    </label><br><br>
+    <input type="text" id="names"><br><br>
+    <label for="remarks">Andere bemerkingen</label><br><br>
+    <textarea form="proposalForm" id="remarks"></textarea><br><br>
+    <label>Stageperiode</label><br><br>
+    <input type="checkbox" id="sem1" name="Semester 1 (oktober - januari)" value="sem1">
+    <label for="sem1"> Semester 1 (oktober - januari)</label><br>
+    <input type="checkbox" id="sem2" name="Semester 2 (februari - juni)" value="sem2">
+    <label for="sem2"> Semester 2 (februari - juni)</label><br><br>
+    <input class="button" type="button" (click)="createExercise()" value="Aanmaken" ><br><br>
+    <div id="output"></div>
+  </form>
+</section>

@@ -1,0 +1,56 @@
+li {
+  list-style-type: none;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  overflow: hidden;
+}
+
+:host ::ng-deep li:hover {
+  background-color: rgb(88, 111, 130, 80%);
+  color: black;
+  cursor: pointer;
+}
+
+:host ::ng-deep li:nth-child(odd):hover {
+  color: black;
+}
+
+::ng-deep li:nth-child(even) {
+  background-color: #5e7380;
+  color: white;
+}
+
+::ng-deep li:nth-child(odd) {
+  background: white;
+}
+
+::ng-deep li:last-child {
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+}
+
+::ng-deep ul {
+  background-color: white;
+  padding-left: 0;
+}
+
+::ng-deep section {
+  background-color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: white;
+}
+
+::ng-deep .statusDiv {
+  margin-right: 2%;
+  width: 10%;
+  text-align: center;
+  float: right;
+  color: white;
+  font-weight: bold;
+  padding: 0.2%;
+  margin-bottom: 0.5%;
+  border-radius: 5px;
+  border: black solid 0.5px;
+}

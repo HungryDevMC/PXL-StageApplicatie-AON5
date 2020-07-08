@@ -1,0 +1,63 @@
+﻿authentication/register/company:
+	- company_name
+	- password (some minimal characters)
+	- employees_amount
+	- it_employees_amount
+	- it_employees_mentor_amount
+	- company_latitude
+	- company_longitude
+	- internship_latitude		(NOT REQUIRED, default = company coordinates)
+	- internship_longitude		(^)
+	- contact_title
+	- contact_name
+	- contact_surname
+	- contact_phone
+	- contact_email
+	- promoter_title
+	- promoter_name
+	- promoter_surname
+	- promoter_phone
+	- promoter_email
+
+authentication/register/pxl:
+	- email (ends with student.pxl.be & pxl.be)
+	- password (some minimal characters)
+	
+authentication/login:
+	- email
+	- password
+	returns role
+	
+internship (post/update) (gegevens van bedrijf moeten van account opgehaald worden, update moet gewoon velden overschrijven als de bedrijven de opdracht nog willen aanpassen)
+	- study
+    - names
+    - environment
+    - technicalDescription
+    - extraRequirements
+    - theme
+    - activities
+    - amountOfStudents
+    - remarks
+    - period
+    - description
+	
+intership/all (get)
+	returns all internships with state etc, same as values above
+	
+internship/{internshipId} (get)
+	returns internship with id, same as values above but with state etc
+	
+internship/teachers (get/update)
+	get: returns all teachers that are assigned to internship if any
+	patch: list of teachers that we want to assign to internship are sent with request
+
+teachers (get)
+	returns all teachers that are registered
+	
+internship/teacher_review/{id} (post)
+	approves or disapproves internship with feedback, sent id with request to indicate which teacher has reviewed the intership
+	
+internship/coordinator_review (post)
+	approves or disapproves internship based on body sent with request
+
+FOS Calls, onnodig.. Gewoon JSON de 4 richtingen, niet speciaal calls voor maken, worden niet gebruikt

@@ -1,0 +1,71 @@
+nav
+{
+  background-color: #0a212b;
+  font-size: 13pt;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  position: fixed;
+  z-index:1;
+  top: 0;
+  width: 100%;
+  height: 10%;
+}
+#logo
+{
+  margin-left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#logo img
+{
+  width: 25%;
+  height: auto;
+}
+
+#name 
+{
+  color: white;
+  text-decoration: none;
+  
+}
+
+#icon 
+{
+  vertical-align: middle;
+  background-image: url("../../assets/header/Icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 5px;
+  margin-left: 1%;
+  margin-right: 5%;
+}
+
+#logout {
+  float: right;
+  margin-top: 10px;
+  text-align: center;
+  height: auto;
+  margin-top: 1.75%;
+  text-decoration: none;
+  background-color: #0a212b;
+  margin-right: 0;
+  width: 20%;
+}
+
+#logout li
+{
+  background-color: #0a212b;
+  border: none;
+  display: inline;
+  text-decoration: none;
+}
+
+#logoutLink {
+  color: white;
+  text-decoration: none;
+}
+
+#logout a {
+  cursor: pointer;
+}

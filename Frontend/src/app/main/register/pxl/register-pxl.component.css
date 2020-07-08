@@ -1,0 +1,29 @@
+main {
+  width: 20%;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.title {
+  display: inline-block;
+  margin-left: 0;
+  width: 80%;
+  padding: 0;
+  color: black;
+}
+
+#output {
+  color: red;
+}
+
+label {
+  color: black;
+}
+
+input {
+  background-color: #5f7481;
+}

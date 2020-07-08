@@ -1,0 +1,4 @@
+﻿FirstName;LastName;HouseNumber;City;StreetName;Bus;ZipCode;Password;PhoneNumber;Email;FieldOfStudy
+John;Doe;12;Alken;Easy Street;/;3590;String_123;3245789565;john.doe@pxl.be;AON
+Fons;Steelpan;45;Kermt;InDeStroat;/;3590;String_1234;3298456259;fons.steelpan@student.pxl.be;AI
+Alain;Vandam;78;Protput;VandamStraat;A;5971;Vandam_148;3245981535;alain.vandam@vandamplastiek.be;

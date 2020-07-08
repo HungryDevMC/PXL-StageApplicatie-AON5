@@ -1,0 +1,56 @@
+
+::ng-deep label
+{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::ng-deep textarea
+{
+  resize: none;
+  width: 70%;
+  height: 80px;
+  border: solid white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+::ng-deep input
+{
+  border: solid white;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: 3%;
+  font-weight: bold;
+}
+
+::ng-deep label
+{
+  margin-left: 3%;
+}
+
+::ng-deep textarea
+{
+  margin-left: 3%;
+}
+
+::ng-deep #otherText
+{
+  width: 50%;
+  margin-left: 1%;
+}
+
+::ng-deep #theme
+{
+  width: 30%;
+}
+
+::ng-deep #names
+{
+  width: 30%;
+}
+
+::ng-deep #semester {
+  width: 50%
+}

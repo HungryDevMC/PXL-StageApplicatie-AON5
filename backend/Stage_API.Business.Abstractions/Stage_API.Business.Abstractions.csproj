@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BaseService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stage_API.Data\Stage_API.Data.csproj" />
+    <ProjectReference Include="..\Stage_API.Dto\Stage_API.Dto.csproj" />
+    <ProjectReference Include="..\Stage_API.IdentityDomain\Stage_API.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

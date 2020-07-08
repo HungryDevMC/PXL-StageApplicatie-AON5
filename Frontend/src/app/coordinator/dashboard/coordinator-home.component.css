@@ -1,0 +1,67 @@
+a {
+    width: 35%;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    float: right;
+    margin: 0;
+    height: 700px;
+    background-color: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#csv {
+    width: 20%;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    float: right;
+    margin: 0;
+    height: 700px;
+    background-color: white;
+    border-left-style: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#accounts {
+    width: 44%;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    float: right;
+    margin: 0;
+    height: 700px;
+    background-color: white;
+    border-right-style: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow-y: scroll;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+#upload {
+    border: none;
+    color: black;
+    padding: 0.5% 2.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    width: 98%;
+}
+
+table {
+    width: 100%;
+}
